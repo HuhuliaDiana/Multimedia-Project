@@ -1,0 +1,143 @@
+<html>
+    <head>
+        <title>SVG Editor</title>
+        <link rel="stylesheet" href="6_1083_Huhulia_Diana.css">
+
+
+    </head>
+    <body>
+        <!--  -->
+        
+
+        <div style="
+        left: 50%;
+        position: fixed;
+        top: 50px;
+        transform: translate(-50%,0)
+        ">
+        <span>Draw shapes: </span>
+
+            <button id="btn_drawLine">Line</button>
+            <button id="btn_drawRect">Rectangular</button>
+            <button id="btn_drawEllipse">Ellipse</button>
+            <button style="background-color: #ff9999; margin-left: 30px; width: 90px" id="undo_draw_shapes">Undo</button>
+
+        </div>
+
+        <!--  -->
+
+        <div  style="
+        top: 50%;
+            left: 10%;
+            transform: translate(-50%,-50%);
+            position: fixed;
+        ">
+        
+
+            <div class="modifyShapes" >
+                <label for="stroke_shape">Stroke shapes: </label>
+                <input id="stroke_shape" type="number" min="0" max="99" value="20">    
+
+            </div>
+            <div class="modifyShapes">
+                <label for="color_stroke_shape">Color stroke shapes: </label>
+                <input type="color" id="color_stroke_shape" name="color_stroke_shape" value="#000000">
+
+            </div>
+
+            <div class="modifyShapes">
+                <label for="color_bg">Color background: </label>
+            <input type="color" id="color_bg" name="color_bg">
+
+           </div>
+
+           <div class="modifyShapes">
+            <button id="modify_svg" style="width: 100%">Modify SVG element</button>
+
+           </div>
+    
+
+        </div>
+
+       
+        <div id="svg"  style="
+            width: 800px; 
+            height: 600px;
+            top: 50%;
+            left: 50%; 
+            transform: translate(-50%,-50%);
+            position: fixed;
+            "></div>
+
+      
+        <div style=" top: 50%;
+        left: 85%;
+        transform: translate(-50%,-50%);
+        
+        position: fixed;">
+
+            <div class="modifyPaths">
+                <label for="color_stroke_path">Color paths: </label>
+                <input type="color" id="color_stroke_path" name="color_stroke_path" value="#ff0000">
+            </div>
+           
+    
+            <div class="modifyPaths">
+                <label for="stroke_path">Stroke paths: </label>
+                <input id="stroke_path" type="number" min="0" max="99" value="5">
+            </div>
+           
+    
+            <div class="modifyPaths">
+                <button id="modify_path" style="width: 100%">Modify path</button>
+            </div>
+            
+
+        </div>
+
+
+        <div style="
+        position: fixed;
+        bottom: 60px;
+        left: 80%;
+        transform: translate(-70%, 0);
+        ">
+
+            <button class="btn" id="delete_svg">Delete SVG element</button>
+            <button class="btn" id="drag_svg">Drag SVG element</button>
+
+        </div>
+
+        <div style="
+        position: fixed;
+        bottom: 60px;
+        left: 20%;
+        transform: translate(-30%, 0);
+        ">
+
+            <button class="btnDw" id="download_as_png">Download as png</button>
+            <button class="btnDw"  id="download_as_jpeg">Download as jpeg</button>
+            <button class="btnDw" id="download_as_svg">Download as svg</button>
+
+
+        </div>
+       
+
+
+
+        <script src="6_1083_Huhulia_Diana.js"></script>
+
+        <script>
+            
+           
+
+</script>
+
+
+
+</body>
+
+</html>
+
+
+

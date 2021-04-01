@@ -1,0 +1,41 @@
+.modifyShapes{
+    position: relative;
+    margin-top: 20px
+
+
+
+}
+body{
+    background-color: #ccd9ff
+}
+.modifyPaths{
+    position: relative;
+    margin-top: 20px
+}
+
+label, span{
+    font-family: Georgia, serif;
+    font-size: 20px;
+
+}
+button{
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    border-radius: 8px;
+background-color: rgb(176,196,222);
+font-size: 120%;
+
+
+}
+input
+{
+    font-size: 17px;
+}
+input
+{
+    background-color:#ffe6ff;
+    text-align: center;
+}
+
+.btnDw,.btn{
+    background-color: #ffcccc;
+}
